@@ -5,24 +5,40 @@
     src: url('../fonts/Microsoft-Yahei-Regular.ttf');
 }
 
-body{
-    font-family: 'Microsoft-Yahei-Regular','Glegoo', serif;
+:root {
+    --color-primary: #f26722;
+    --color-secondary: #993809;
+    --color-white: #ffffff;
 }
 
-.ht-nav{
-    border-top: 1.5rem solid #f26722;
+body {
+    font-family: 'Microsoft-Yahei-Regular', 'Glegoo', serif;
+}
+
+.ht-nav {
+    border-top: 1.5rem solid var(--color-primary);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
 
-.ht-banner{
+.ht-banner {
     margin-top: 8.6rem;
-    background: #993809;
+    background: var(--color-secondary);
 }
 
-.ht-icons{
-    background: #f26722;
+.ht-icons {
+    background: var(--color-primary);
 }
 
-.ht-text-primary{
-    color:#f26722;
+.ht-text-primary {
+    color: var(--color-primary);
+}
+
+.ht-footer-nav a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.ht-footer-nav a:hover {
+    text-decoration: underline;
+    color: var(--color-primary);
 }
