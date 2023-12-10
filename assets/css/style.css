@@ -11,6 +11,7 @@
     --color-white: #ffffff;
     --color-blue: #1a4ea1;
     --color-dark-blue: #2c4c6c;
+    --color-gray: #727272;
 }
 
 body {
@@ -148,17 +149,17 @@ body {
     margin: 0 auto;
     padding: 50px 15px;
     border-radius: 10px;
-    border: 1px solid #E83015;
+    border: 1px solid var(--color-primary);
     font-size: 24px;
-    color: #727272;
+    color: var(--color-gray);
     font-weight: 600;
 }
 
 .ht-bocks-box-title {
     position: absolute;
     font-size: 20px;
-    color: #FFFFFF;
-    background-color: #E83015;
+    color: var(--color-white);
+    background-color: var(--color-primary);
     border-radius: 10px;
     width: 80%;
     padding: 10px 10px;
@@ -166,5 +167,15 @@ body {
     left: 50%;
     top: -22%;
     transform: translateX(-50%);
-    box-shadow: 0 0 0 10px #FFFFFF;
+    box-shadow: 0 0 0 10px var(--color-white);
+}
+
+.ht-icon-text{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 550px) {
+    .ht-icon-text{
+        font-size: 10px;
+    }
 }
