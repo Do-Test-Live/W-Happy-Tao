@@ -10,6 +10,7 @@
     --color-secondary: #993809;
     --color-white: #ffffff;
     --color-blue: #1a4ea1;
+    --color-dark-blue: #2c4c6c;
 }
 
 body {
@@ -87,4 +88,83 @@ body {
 
 .ht-content h4{
     font-weight: bolder;
+}
+
+.ht-list p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ht-list p span {
+    margin-left: 10px;
+    color: var(--color-primary);
+}
+
+.ht-list-title{
+    font-weight: bolder;
+    color: var(--color-secondary);
+    border-bottom: 1px solid var(--color-secondary);
+}
+
+.ht-button{
+    background: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+}
+
+.ht-button:hover,.ht-button:active{
+    background: var(--color-primary);
+    border: 1px solid var(--color-primary);
+}
+
+.ht-home-title{
+    font-weight: bolder;
+}
+
+.ht-quote{
+    background-size: cover;
+    background: var(--color-dark-blue) url("../images/background/bg1.png") no-repeat fixed;
+    height: 550px;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+}
+
+.ht-chart{
+    background: url('../images/background/bg2_01.png') 0 0 repeat-y, url('../images/background/bg2_03.png') 100% 0 repeat-y;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.ht-advantage{
+    background: linear-gradient(105deg, #a2392a 0%, #2d4a78 100%);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.ht-footer-bocks-box {
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 15px;
+    border-radius: 10px;
+    border: 1px solid #E83015;
+    font-size: 24px;
+    color: #727272;
+    font-weight: 600;
+}
+
+.ht-bocks-box-title {
+    position: absolute;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #E83015;
+    border-radius: 10px;
+    width: 80%;
+    padding: 10px 10px;
+    text-align: center;
+    left: 50%;
+    top: -22%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 0 10px #FFFFFF;
 }
