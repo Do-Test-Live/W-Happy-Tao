@@ -23,6 +23,10 @@ body {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
 
+.ht-logo{
+    max-height: 90px;
+}
+
 .ht-banner {
     margin-top: 8.6rem;
     background: var(--color-secondary);
@@ -178,4 +182,23 @@ body {
     .ht-icon-text{
         font-size: 10px;
     }
+}
+
+#ht-scroll-top{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 99;
+    font-size: 30px;
+    background-color: var(--color-white);
+    color: var(--color-blue);
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: 1px solid var(--color-blue) !important;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.75);
 }
