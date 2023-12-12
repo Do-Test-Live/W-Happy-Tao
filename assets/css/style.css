@@ -182,6 +182,10 @@ body {
     .ht-icon-text{
         font-size: 10px;
     }
+
+    .ht-logo{
+        max-height: 75px;
+    }
 }
 
 #ht-scroll-top{
